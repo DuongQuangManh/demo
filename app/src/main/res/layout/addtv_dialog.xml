@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/custom_bgdialog"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm thành viên"
+        android:background="@drawable/custom_header_dialog"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textStyle="normal"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+       >
+        <EditText
+            android:id="@+id/edt_matv_dialogtv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_edt"
+            android:hint="Mã thành viên"
+            android:paddingStart="10dp"/>
+        <EditText
+            android:id="@+id/edt_tentv_dialogtv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_edt"
+            android:hint="Tên thành viên"
+            android:paddingStart="10dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/edt_namsinh_dialogtv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_edt"
+            android:hint="Năm sinh"
+            android:paddingStart="10dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/edt_sotaikhoan_dialogtv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_edt"
+            android:hint="Số tài khoản"
+            android:paddingStart="10dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#8E24AA"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_luu_dialogtv"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:layout_toStartOf="@+id/btn_huy_dialogtv"
+            android:background="@drawable/custom_btn"
+            android:drawableStart="@drawable/ic_save"
+            android:text="Lưu"
+            android:textColor="@color/white"
+            android:paddingStart="2dp"/>
+
+        <Button
+            android:id="@+id/btn_huy_dialogtv"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_btn"
+            android:text="Huỷ"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tài khoản: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/edt_tk_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Tài khoản"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:drawableEnd="@drawable/ic_account"
+        android:background="@drawable/custom_edt"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_mk_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_edt"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:paddingStart="10dp" />
+
+        <ImageView
+            android:id="@+id/img_showpass_login"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_eye_off" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu mật khẩu ?"
+            android:id="@+id/ckb_luumatkhau"/>
+        <Button
+            android:id="@+id/btn_dangnhap_login"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/custom_btn"
+            android:text="Đăng nhập"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

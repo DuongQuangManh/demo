@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#FDD835"
+    android:id="@+id/layout_update_itemsach"
+    >
+        <TextView
+            android:id="@+id/tv_masach_dialogchitiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã thành viên 1"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_tensach_dialogchitiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_masach_dialogchitiet"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Tên thành viên: Dương Quang Mạnh"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_giathue_dialogchitiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tensach_dialogchitiet"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Năm sinh: 2003"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_loaisach_dialogchitiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_giathue_dialogchitiet"
+            android:layout_marginTop="10dp"
+            android:text="Loại sách: CNTT"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_soluong_dialogchitiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_loaisach_dialogchitiet"
+            android:layout_marginTop="10dp"
+            android:text="Số lượn: 10000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+</RelativeLayout>

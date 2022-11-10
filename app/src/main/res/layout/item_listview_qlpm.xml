@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="225dp"
+    android:layout_marginTop="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:background="#ff0"
+        android:id="@+id/layout_update_itempm">
+        <TextView
+            android:id="@+id/tv_mapm_itempm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã phiếu: 1"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_tensinhvien_itempm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_mapm_itempm"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Thành viên: Dương Quang Mạnh"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_tensach_itempm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tensinhvien_itempm"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Tên sách: Java 1"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_tienthue_itempm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tensach_itempm"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Tiền thuê: 2000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_trangthai_itempm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tienthue_itempm"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Chưa trả sách"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF0000"/>
+        <TextView
+            android:id="@+id/tv_ngaythue_itempm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_trangthai_itempm"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Ngày thuê: 2020-09-08"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_delete_itempm"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_delete"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"/>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

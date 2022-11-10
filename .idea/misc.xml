@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/drawable-v24/bg_login.xml" value="0.139" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/drawable-v24/custom_btn.xml" value="0.127" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/drawable-v24/ic_account.xml" value="0.1" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/drawable-v24/ic_eye_off.xml" value="0.1" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/drawable/bg_login.xml" value="0.1" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/drawable/custom_bgdialog.xml" value="0.1" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/drawable/custom_header_dialog.xml" value="0.1" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/activity_login_main.xml" value="0.1" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/activity_sflash2_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/activity_splash_screen.xml" value="0.2537037037037037" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/addloaisach_dialog.xml" value="0.259375" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/addpm_dialog.xml" value="0.24031007751937986" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/addsach_dialog.xml" value="0.264" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/addtv_dialog.xml" value="0.264" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/dialog_sachchitiet.xml" value="0.25885416666666666" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/fragment_create_.xml" value="0.1" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/fragment_doanh_thu_.xml" value="0.264" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/fragment_doi_mat_khau_.xml" value="0.2" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/fragment_login_.xml" value="0.264" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/fragment_q_l_l_s_.xml" value="0.1" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/fragment_q_l_p_m_.xml" value="0.1" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/fragment_q_l_s_.xml" value="0.2" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/fragment_q_l_t_v_.xml" value="0.1" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/fragment_t_o_p_.xml" value="0.1" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/header_nav.xml" value="0.2" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/item_listview_qlls.xml" value="0.259375" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/item_listview_qlpm.xml" value="0.2" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/item_listview_qlsach.xml" value="0.2548717948717949" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/item_listview_qltv.xml" value="0.264" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/item_listview_top.xml" value="0.20833333333333334" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/item_spinner_loaisach.xml" value="0.264" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/layout/layout_header.xml" value="0.21944444444444444" />
+        <entry key="..\:/manhdqph20768_Assignment_DuAnMau/app/src/main/res/menu/menu_nav.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
